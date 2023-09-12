@@ -37,12 +37,25 @@ export default function page() {
       </Section>
       <Section ID="comedy" title="Comedy Shows Near You" link="comedy">
         <div className="cardContainer">
-          <Card title="Satyam" date="19-Aug-2023" desc="nothin" />
+          <Card
+            title="The Comedy Show"
+            date="08 Aug 2023"
+            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis tenetur nobis, libero eveniet veniam vero aperiam error quia odio rem?"
+          />
         </div>
       </Section>
       <Section ID="artist" title="Artist Shows Near You" link="arts">
         <div className="cardContainer">
-          <Card title="Satyam" date="19-Aug-2023" desc="nothin" />
+          <Card
+            title="The Historical Show"
+            date="08 Aug 2023"
+            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis tenetur nobis, libero eveniet veniam vero aperiam error quia odio rem?"
+          />
+          <Card
+            title="The Historical Show"
+            date="08 Aug 2023"
+            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis tenetur nobis, libero eveniet veniam vero aperiam error quia odio rem?"
+          />
         </div>
       </Section>
     </main>
