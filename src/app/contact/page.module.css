@@ -62,7 +62,7 @@
 }
 @media screen and (max-width : 750px){
   .input,.textArea{
-    font-size: 3vw;
+    font-size: 5vw;
     width:100%;
   }
   .imgContainer {

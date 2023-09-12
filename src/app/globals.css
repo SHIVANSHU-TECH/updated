@@ -143,9 +143,18 @@ a {
   background-color: var(--danger-1);
 
 }
+
+@media screen and (min-width:0)and (max-width: 720px) {
+  .cardContainer{
+   display: flow;
+  }
+  .cardImg{
+    width: 56vw;
+  }
+}
 @media screen and (max-width: 720px) {
   .card {
-    width:260px;
+    width: 60vw;
     margin-top: 10rem;
   }
   .cardImg {
