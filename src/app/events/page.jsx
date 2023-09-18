@@ -6,12 +6,15 @@ import Heading from "@/components/HeadingEvent/Heading";
 import Link from "next/link";
 import Section from "@/components/sectionEvent/section";
 import Card from "@/components/Card/CardEvent";
+import "../events/events.css";
 
 export default function page() {
   return (
     <main>
       <Landing />
-      <Section ID="spiritual" title="Spiritual Shows Near You" link="spiritual">
+      
+      <Section ID="spiritual" title="Cultural Events Near You" link="spiritual">
+      <Link href='/events/form' className="create">create</Link>
         <div className="cardContainer">
           <Card
             title="The Comedy Show"
@@ -35,7 +38,7 @@ export default function page() {
           />
         </div>
       </Section>
-      <Section ID="comedy" title="Comedy Shows Near You" link="comedy">
+      <Section ID="comedy" title="Technical Events Near You" link="comedy">
         <div className="cardContainer">
           <Card
             title="The Comedy Show"
@@ -44,7 +47,7 @@ export default function page() {
           />
         </div>
       </Section>
-      <Section ID="artist" title="Artist Shows Near You" link="arts">
+      <Section ID="artist" title="Sports event Near You" link="arts">
         <div className="cardContainer">
           <Card
             title="The Historical Show"

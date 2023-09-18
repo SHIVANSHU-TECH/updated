@@ -155,7 +155,7 @@ a {
 @media screen and (max-width: 720px) {
   .card {
     width: 60vw;
-    margin-top: 10rem;
+    margin-top: 6.5rem;
   }
   .cardImg {
     margin: 0 auto;

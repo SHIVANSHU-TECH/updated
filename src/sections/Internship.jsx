@@ -1,14 +1,19 @@
+  "useClient";
 import Button from "@/components/Button/Button";
 import Card from "@/components/Card/Card";
 import FilterMenu from "@/components/FilterMenu/Filtermenu";
-import React from "react";
+import React, { useState } from "react";
 import "@/app/internships/internship.css";
+import Link from "next/link";
+import "./intern.css";
 
 function Internship() {
   return (
     <div className="internshipSection">
+      <div className="">
       <FilterMenu />
-
+       <Link href="/internships/form" className="icreate">create</Link>
+       </div>
       <main className="cardContainer">
         <Card
           role="Front-end Developer"

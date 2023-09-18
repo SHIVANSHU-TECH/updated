@@ -31,8 +31,8 @@ const links = [
   },
   {
     id: 5,
-    title: "Contact",
-    url: "/contact",
+    title: "auth",
+    url: "/register",
   },
   {
     id: 6,

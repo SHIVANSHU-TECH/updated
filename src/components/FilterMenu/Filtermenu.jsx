@@ -22,6 +22,7 @@ function FilterMenu() {
   };
 
   return (
+    
     <div className="sidebar">
       <h2 className="heading">
         <span className="icon">
