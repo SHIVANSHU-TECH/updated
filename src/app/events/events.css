@@ -17,7 +17,7 @@
 @media screen and (max-width: 605px) {
     .create{
     position: absolute;
-    top: 25%;
+    /* top: 25%; */
 }
 }
 @media screen and  (min-width: 606px) and (max-width: 715px){

@@ -33,3 +33,29 @@
   color: #eee;
   font-weight: bold;
 }
+@media screen and (min-width:100px) and (max-width: 250px) {
+  .container{
+    top: 20%;
+    position: absolute;
+    width: 70%;
+  }
+  .button{
+    width: 70%;
+  }
+  .form{
+    width:70%;
+  }  
+}
+@media screen and (min-width:251px) and (max-width: 705px) {
+  .container{
+    top: 20%;
+    position: absolute;
+    width:70%;
+}
+.button{
+  width:80%;
+}
+.form{
+  width:80%;
+}
+}

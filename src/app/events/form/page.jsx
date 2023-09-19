@@ -8,6 +8,7 @@ export default function eform() {
     
   return (
     <div>
+      {/* <div className="containerForm"> */}
     <form className='eForm'>
     <label for="event">Event Name</label>
     <input type="text" id="ename" name="event" placeholder="Event name" />
@@ -34,5 +35,6 @@ export default function eform() {
     
     <input type="submit" value="Submit"/>
   </form>
+  {/* </div> */}
     </div>
   ) }

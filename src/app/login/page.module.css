@@ -68,3 +68,23 @@
 .google:hover {
   background-color: rgba(228, 97, 50, 0.803);
 }
+
+
+
+
+
+
+@media screen and (min-width:151px) and (max-width: 705px) {
+ .container{
+    top: 20%;
+    position: absolute;
+    left: 1px;
+    right: 1px;
+ }
+ .form{
+   width: 70%;
+ }
+ .button{
+  width: 70%;
+ }
+}
