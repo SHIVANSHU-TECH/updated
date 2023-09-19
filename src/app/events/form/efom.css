@@ -75,7 +75,7 @@ input[type], select {
         position: fixed;
         top: 14%;
         left: 15%;
-        gap:0px;
+        gap:10px;
     }
     input[type], select {
       margin: 2px 0;

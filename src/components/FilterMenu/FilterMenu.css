@@ -126,7 +126,15 @@ input[type="range"] {
       padding: 10px;
       /* position: fixed; */
     }
+    input[type="range"] {
+      cursor: pointer;
+      background-color: #fff990;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 15px;
+      padding: 3px;
   }
   
- 
+  } 
   

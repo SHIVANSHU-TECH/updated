@@ -58,8 +58,10 @@ display: flex;
     position: fixed;
     top:0;
     z-index: 100;
-    width: calc(100% - 65px);
+    /* width: calc(100% - 65px); */
     background-color: #fffdd0;
+    width: calc(100% - 5px);
+    left: 2%;
   }
 
   .menu{

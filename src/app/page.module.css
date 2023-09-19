@@ -66,4 +66,8 @@
     margin-top: 110px;
   }
 }
-
+@media screen and (max-width: 750px) {
+ .item{
+  margin-top: 10rem;
+ }
+}
